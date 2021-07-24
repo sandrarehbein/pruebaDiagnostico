@@ -1,6 +1,7 @@
-var n =parseInt(prompt("Ingresa un numero"));
+var min =parseInt(prompt("Ingresa un numero minimo"));
+var max=parseInt(prompt("Ingrese numer maximo"));
 var suma=0;
-for(let i=1; i<=n;i++){
+for(let i=min; i<=max ;i++){
 if(i%2!=0){
     console.log(i);
     suma=suma+i;
